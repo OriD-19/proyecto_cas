@@ -66,20 +66,20 @@ const DisplayZone = ({ zone }) => {
   } else if (zone === "sm") {
     return (
       <>
-        <Map src="./img/san_miguel.png" alt="Mapa de San Salvador" />
+        <Map src="./img/san_miguel.png" alt="Mapa de San Miguel" />
       </>
     );
   } else if (zone === "st") {
     return (
       <>
-        <Map src="./img/santa_tecla.PNG" alt="Mapa de San Salvador" />
+        <Map src="./img/santa_tecla.PNG" alt="Mapa de Santa Tecla" />
       </>
     );
   }
 
   return (
     <>
-      <Map src="./img/el_salvador.PNG" alt="Mapa de San Salvador" />
+      <Map src="./img/el_salvador.png" alt="Mapa de El Salvador" />
     </>
   );
 };
